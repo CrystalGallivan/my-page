@@ -1,0 +1,141 @@
+body{
+  background-color:#5d585852;
+}
+h1, h3{
+ font-family: 'Pacifico', cursive;
+ color: whitesmoke;
+}
+header{
+  background-image: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+}
+.wrapper-img1{
+background-image: url("mustache.PNG");
+}
+.wrapper-img2{
+background-image: url("fidget.PNG");
+}
+.wrapper-img3{
+background-image: url("capstoneImg.PNG");
+}
+#img-body{
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+}
+#card-title{
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  padding: 30px;
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Livvic", sans-serif;
+}
+#card-title:hover{
+  opacity: .75px;
+}
+.overlay-button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 250px;
+ }
+#desc{
+  background-color: #5d585852;
+  color: whitesmoke ;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+
+}
+footer{
+  width: 100%;
+}
+p{
+  font-family: 'Livvic', sans-serif;
+}
+.about-wrapper{
+  display: -webkit-box;
+}
+#about-me{
+  padding: 80px;
+  word-wrap: break-word;
+  max-width: 650px;
+}
+.wrapper{
+  margin: 0 auto;
+  max-width: 960px;
+  padding-left: 10px; 
+  padding-right: 10px; 
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 600px;  */
+}
+#blank {
+  min-height: 200px;
+   
+}
+#frontend {
+  display:flex;
+  min-height: 150px;
+  justify-content: space-around;
+  background-color: #ebebeb;
+  align-items: center;
+  color: black;
+}
+#backend {
+  display: flex;
+  min-height: 150px;
+  justify-content: space-around;
+  background-color: #ebebeb;
+  align-items: center;
+  color: black;
+}
+#socialmedia {
+  background-color: black;
+  color: #ebebeb;
+  height: 75px;
+  font-size: 20pt;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  }
+  a:hover{
+    opacity: .7;
+    }
+  #blank3 {
+  background-color: #ebebeb;
+  height: 15px;
+  outline-color: black;
+}
+  #line {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+   #blankspace {
+  background-color: black;
+  color: #ebebeb;
+  height: 75px;
+  font-size: 20pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  
+  }
+  footer{
+  position: static;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  }
